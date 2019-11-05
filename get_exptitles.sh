@@ -14,7 +14,9 @@ shortDash=(`printf '%.0s-' {1..15}`)
 echo $expFolder > $expList
 echo $longDash >> $expList
 
-for exp in $(ls -vd ls ./+([0-9]))
+# Enable + wildcard
+shopt -s extglob
+for exp in $(ls -vd ./+([0-9]))
 do
     echo $exp >> $expList
     echo $shortDash >> $expList
