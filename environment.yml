@@ -1,4 +1,4 @@
-name:nmr-utils
+name: nmr-utils
 dependencies:
   - numpy
   - matplotlib
