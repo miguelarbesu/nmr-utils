@@ -1,3 +1,5 @@
-numpy
-matplotlib
-ipywidgets
+name:nmr-utils
+dependencies:
+  - numpy
+  - matplotlib
+  - ipywidgets
