@@ -24,6 +24,7 @@ do
     printf '\n' >> $expList
     cat $exp/pdata/1/title >> $expList
     printf '\n' >> $expList
+    printf '\n' >> $expList
     echo $longDash >> $expList
     printf '\n' >> $expList
 done
